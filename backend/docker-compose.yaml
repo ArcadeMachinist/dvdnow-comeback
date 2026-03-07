@@ -1,0 +1,21 @@
+services:
+  dvdnow:
+    build:
+      context: .
+      dockerfile: DVDNowServer
+    ports:
+      - 8082:8080
+    volumes:
+      - ./dvdnow:/var/www/html
+      - ./dvdnow/tmp:/data
+  proxy:
+    build:
+      context: .
+      dockerfile: NginxProxy
+    links:
+      - dvdnow
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx-config.conf:/etc/nginx/nginx.conf

@@ -1,0 +1,5 @@
+FROM trafex/php-nginx
+USER root
+# RUN apk add --no-cache php-pdo php-pdo_mysql php-pdo_pgsql
+USER nobody
+
