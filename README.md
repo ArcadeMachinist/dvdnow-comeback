@@ -2,9 +2,17 @@
 
 This repository serves as a staging ground for reviving the now-extinct **DVDnow S250** rental kiosks.
 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/75406f9b-9bc0-4f11-a8c1-26732d213e19" width="35%">
+</p>
 The goal is **not** to bring these machines back into commercial operation. While the disc handling robotics remain solid and reliable, the original UI, backend software, and — most importantly — the payment infrastructure are outdated and impractical to maintain.
 
 However, these kiosks still make excellent **automated home media libraries** for DVDs, game discs, or other collectible optical media. This project aims to make that conversion possible.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2b3efb44-e39e-45b9-88f3-45262d76e7c6" width="25%">
+  <img src="https://github.com/user-attachments/assets/5be9e2d3-38f8-4c85-a5b6-7448700bf133" width="25%">
+</p>
 
 ## Project Scope
 
